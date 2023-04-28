@@ -29,6 +29,7 @@ a{
     padding: 10px;
     height: 22px;
     margin: 30px;
+    font-size: 20px;
 }
 
 .nav-menu{
@@ -289,16 +290,24 @@ gap: 20px;
         justify-content: space-evenly;
 }
 .hero-image{
-            width: 100px;
-            height: 500px;
-            padding: 50px;
+    width: 200px;
+            padding: 10px;
+            margin-right: 300px;
         }
+
 .description{display: flex;
     justify-content: left;
     align-items: left;
     align-content: left;
-    width: 50%;
+    width: 3000px;
     height: 500px;
+    margin-right: 100px;
+    font-size: 60px;
+}
+
+.heading{
+    font-size: 50px;
+    line-height: 70px;
 }
 .state{
             display: flex;
@@ -395,5 +404,3 @@ gap: 20px;
 }
 
 }
-
-
