@@ -125,12 +125,13 @@ p{
 .hero-image{
     display: flex;
     align-items: center;
-    padding: 40px;
-    width: 312px;
-    height: 410px;
+    padding-top: 200px;
+    width: 1px;
+    height: 1px;
     
 }
 .state{
+    padding-top: 200px;
     text-align: center;
 
 }
@@ -304,7 +305,10 @@ gap: 20px;
         text-align: left;
     }
     .hero-image{
-        height: auto;
+        height: 100%;
+        padding: 0;
+        width: 100%;
+        padding-left: 50px;
     }
 
     .btn{
