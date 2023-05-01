@@ -37,6 +37,7 @@ a{
     justify-content: space-between;
     align-items: center;
     gap: 10px ;
+    padding-right: 300px;
 }
 
 .logo-image{
@@ -286,35 +287,36 @@ gap: 20px;
 }
 @media(min-width:1024px){
     .hero-section{
-        display: flex;
-        justify-content: space-evenly;
-}
-.hero-image{
-    width: 200px;
-            padding: 10px;
-            margin-right: 300px;
-        }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+    padding-left: 20px;
+    }
 
-.description{display: flex;
-    justify-content: left;
-    align-items: left;
-    align-content: left;
-    width: 3000px;
-    height: 500px;
-    margin-right: 100px;
-    font-size: 60px;
-}
+    .the-fastest{
+        text-align: start;
+        margin-right: 400px;
+        line-height: 100px;
+        font-size: 50px;
+    }
 
-.heading{
-    font-size: 50px;
-    line-height: 70px;
-}
-}
+    .ipsum{
+        text-align: left;
+    }
+    .hero-image{
+        height: auto;
+    }
+
+    .btn{
+        justify-content: start;
+    }
+
 .state{
             display: flex;
             justify-content: space-around;
             align-content: center;
-            padding: 20px;
+            padding-right: 200px;
+            margin-top: 50px;
         }
         
         .menu1{
@@ -355,7 +357,7 @@ gap: 20px;
             flex-wrap: nowrap;
             height: 600px;
             gap: 20px;
-            width: 1520px;
+            width: 100%;
             margin: 20px auto;
             text-align:left;
         }
